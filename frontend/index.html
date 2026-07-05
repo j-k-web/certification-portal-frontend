@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: url('pic2.png') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      width: 350px;
+      text-align: center;
+    }
+
+    .container h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #2c3e50;
+    }
+
+    .container input[type="email"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .container button {
+      width: 100%;
+      padding: 12px;
+      background: #27ae60;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .container button:hover { background: #219150; }
+
+    .link { margin-top: 15px; font-size: 14px; color: #555; }
+    .link a { color: #27ae60; text-decoration: none; }
+    .link a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="email" id="loginEmail" placeholder="Email" required>
+      <input type="password" id="loginPassword" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div class="link">
+      <p>Not registered? <a href="register.html">Click here to register</a></p>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+
+      const data = {
+        email: document.getElementById("loginEmail").value,
+        password: document.getElementById("loginPassword").value
+      };
+
+      try {
+        const res = await fetch("/index", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data)
+        });
+
+        const text = await res.text();
+        alert(text);
+
+        if (text.includes("✅ Login successful")) {
+          // Redirect to dashboard after successful login
+          window.location.href = "dashboard.html";
+        }
+      } catch (err) {
+        alert("❌ Error logging in: " + err.message);
+      }
+    });
+  </script>
+</body>
+</html>

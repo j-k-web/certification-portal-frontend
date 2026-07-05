@@ -1,0 +1,161 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global text styling */
+body, section, p, h1, h2, h3, h4, h5, h6, li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  line-height: 1.8;
+  color: #2c3e50;
+}
+
+/* Layout */
+body {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6f9;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #2c3e50;
+  color: #fff;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* removed padding to eliminate gap */
+  padding: 0;
+}
+
+.sidebar h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* Sidebar buttons */
+.sidebar button {
+  padding: 16px;
+  margin: 0; /* no margin between buttons */
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 0; /* flush edges */
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.sidebar button:hover {
+  background: #219150;
+}
+
+/* Sidebar specialization groups */
+.sidebar-group {
+  display: none; /* hide all groups by default */
+}
+
+/* Content */
+.content {
+  flex: 1;
+  background: #fff;
+  overflow-y: auto;
+  padding: 40px; /* inner spacing only */
+}
+
+/* Sections */
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+/* Section headings */
+section h2 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  background: #115201;
+  padding: 15px;
+  text-align: center;
+  border-radius: 0; /* flush edges */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Moving heading effect */
+.moving-heading {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: moveText 12s linear infinite;
+}
+
+@keyframes moveText {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Home section styling */
+#home p {
+  margin-bottom: 25px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+/* Training modules */
+.training-module {
+  margin-bottom: 30px;
+}
+
+.training-module h3 {
+  margin-bottom: 12px;
+}
+
+.training-module img {
+  max-width: 100%;
+  margin-top: 12px;
+}
+
+/* Questions */
+.question {
+  margin-bottom: 25px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+button.submit {
+  background: #2980b9;
+  margin-top: 20px;
+  padding: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 24px;
+}
+
+button.submit:hover {
+  background: #1f6690;
+}
+
+/* Result */
+#result {
+  margin-top: 20px;
+}

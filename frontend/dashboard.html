@@ -1,0 +1,2733 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Certification Portal Dashboard</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+  <!-- Home -->
+  <button onclick="showSection('home')" class="btn">Home</button>
+
+  <!-- Information Technology -->
+  <div id="sidebar-informationtechnology" class="sidebar-group">
+    <button onclick="showSection('informationtechnologyTraining')" class="btn">IT Training</button>
+    <button onclick="showSection('informationtechnologyQuestions')" class="btn">IT Questions</button>
+  </div>
+
+  <!-- Finance -->
+  <div id="sidebar-finance" class="sidebar-group">
+    <button onclick="showSection('financeTraining')" class="btn">Finance Training</button>
+    <button onclick="showSection('financeQuestions')" class="btn">Finance Questions</button>
+  </div>
+
+  <!-- Education -->
+  <div id="sidebar-education" class="sidebar-group">
+    <button onclick="showSection('educationTraining')" class="btn">Education Training</button>
+    <button onclick="showSection('educationQuestions')" class="btn">Education Questions</button>
+  </div>
+
+  <!-- Healthcare -->
+  <div id="sidebar-healthcare" class="sidebar-group">
+    <button onclick="showSection('healthcareTraining')" class="btn">Healthcare Training</button>
+    <button onclick="showSection('healthcareQuestions')" class="btn">Healthcare Questions</button>
+  </div>
+
+  <!-- Agriculture -->
+  <div id="sidebar-agriculture" class="sidebar-group">
+    <button onclick="showSection('agricultureTraining')" class="btn">Agriculture Training</button>
+    <button onclick="showSection('agricultureQuestions')" class="btn">Agriculture Questions</button>
+  </div>
+
+  <!-- Engineering -->
+  <div id="sidebar-engineering" class="sidebar-group">
+    <button onclick="showSection('engineeringTraining')" class="btn">Engineering Training</button>
+    <button onclick="showSection('engineeringQuestions')" class="btn">Engineering Questions</button>
+  </div>
+
+  <!-- Entrepreneurship -->
+  <div id="sidebar-entrepreneurship" class="sidebar-group">
+    <button onclick="showSection('entrepreneurshipTraining')" class="btn">Entrepreneurship Training</button>
+    <button onclick="showSection('entrepreneurshipQuestions')" class="btn">Entrepreneurship Questions</button>
+  </div>
+
+  <!-- Environment -->
+  <div id="sidebar-environment" class="sidebar-group">
+    <button onclick="showSection('environmentTraining')" class="btn">Environment Training</button>
+    <button onclick="showSection('environmentQuestions')" class="btn">Environment Questions</button>
+  </div>
+
+  <!-- Universal Certification -->
+  <button onclick="showSection('certification')" class="btn">Certification</button>
+</div>
+
+ <div class="content">
+  <section id="home" class="section active">
+    <h2 class="moving-heading">
+      This is an opportunity to every youth in Kenya – Register if You Have Completed Secondary Education and Above
+    </h2>
+  
+    <p>
+      This platform has been launched by the Government of Kenya to prepare young people 
+      for the technology revolution coming by 2030. The vision is bold: to empower 
+      <strong>1 million youths</strong> with simple, accessible training and a recognized 
+      certificate that opens doors to opportunities across many career fields.
+    </p>
+  
+    <p>
+      Technology will transform nearly every aspect of life — from agriculture and healthcare 
+      to finance, education, and engineering. This portal ensures that you are not left behind. 
+      By engaging with the training modules, you gain practical knowledge that connects directly 
+      to Kenya’s future economy and innovation goals.
+    </p>
+  
+    <p>
+      Your certificate is more than a document — it is your key passage to the upcoming 
+      <strong>National Training Program</strong> that will be held in every county on 
+      <strong>21st October this year</strong>. Only those with certificates will be eligible 
+      to participate in this nationwide initiative.
+    </p>
+  
+    <p>
+      To qualify, make sure you read the notes provided under the <strong>Training</strong> 
+      button. Then proceed to the <strong>Questions</strong> section, where you must score 
+      at least <strong>50%</strong> to earn your certificate. This ensures that every 
+      participant has a solid foundation before advancing.
+    </p>
+  
+    <p>
+      Once you have successfully answered the questions, you will be required to pay 
+      <strong>Ksh 150</strong> to unlock and download your certificate. This certificate 
+      is your personal copy and proof of achievement, marking your readiness to join 
+      Kenya’s technological transformation journey.
+    </p>
+
+    <!-- Image showing youths receiving certificates -->
+    <div class="home-image">
+      <img src="cert33.png" alt="Kenyan youths receiving certificates" />
+      <p class="caption"><em>the official launch of the youth commission</em></p>
+    </div>
+  </section>
+</div>
+
+
+<!-- Information Technology Training Section -->
+<section id="informationtechnologyTraining" class="section">
+  <h2>Information Technology Training Modules</h2>
+
+  <div class="training-module">
+    <h3>1. Introduction to Information Technology</h3>
+    <p>Information Technology (IT) is the backbone of modern society, enabling communication, data processing, and automation.</p>
+    <ul>
+      <li><strong>Definition of IT:</strong> IT refers to the use of computers and networks to store, retrieve, and transmit information. <em>Example:</em> Using Microsoft Excel to manage financial records.</li>
+      <li><strong>Evolution:</strong> From mainframe computers in the 1960s to today’s cloud computing. <em>Example:</em> Transition from floppy disks to Google Drive.</li>
+      <li><strong>Applications:</strong> IT is used in education, healthcare, and governance. <em>Example:</em> Online learning platforms like Coursera.</li>
+    </ul>
+    <img src="images/it_intro.png" alt="IT Introduction Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>2. Networking Basics</h3>
+    <p>Networking allows devices to communicate and share resources efficiently.</p>
+    <ul>
+      <li><strong>LAN vs WAN:</strong> LAN covers small areas like offices, WAN spans large areas like the internet. <em>Example:</em> Your home Wi‑Fi (LAN) vs browsing websites (WAN).</li>
+      <li><strong>Protocols:</strong> Rules for communication such as TCP/IP and HTTP. <em>Example:</em> HTTP is used when you open a webpage.</li>
+      <li><strong>Devices:</strong> Routers direct traffic, switches connect devices, firewalls protect networks. <em>Example:</em> A router at home connects laptops and phones to the internet.</li>
+    </ul>
+    <img src="images/network.png" alt="Networking Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>3. Operating Systems</h3>
+    <p>An operating system (OS) manages hardware and software resources.</p>
+    <ul>
+      <li><strong>Windows, Linux, macOS:</strong> Popular OS choices. <em>Example:</em> Windows for office work, Linux for servers.</li>
+      <li><strong>Kernel functions:</strong> The kernel controls processes and memory. <em>Example:</em> Linux kernel manages multitasking.</li>
+      <li><strong>File systems:</strong> Organize data storage. <em>Example:</em> NTFS in Windows vs EXT4 in Linux.</li>
+    </ul>
+    <img src="images/os.png" alt="Operating System Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>4. Database Management</h3>
+    <p>Databases organize and store data for easy access.</p>
+    <ul>
+      <li><strong>Relational vs NoSQL:</strong> Relational uses tables, NoSQL is flexible. <em>Example:</em> MySQL vs MongoDB.</li>
+      <li><strong>SQL queries:</strong> Used to manipulate data. <em>Example:</em> <code>SELECT * FROM students;</code></li>
+      <li><strong>Data modeling:</strong> Designing efficient structures. <em>Example:</em> Normalizing tables to avoid duplication.</li>
+    </ul>
+    <img src="images/database.png" alt="Database Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>5. Cybersecurity Fundamentals</h3>
+    <p>Cybersecurity ensures data and systems remain safe from threats.</p>
+    <ul>
+      <li><strong>Encryption:</strong> Secures communication. <em>Example:</em> WhatsApp uses end‑to‑end encryption.</li>
+      <li><strong>Firewalls:</strong> Block unauthorized access. <em>Example:</em> Company firewall prevents hackers.</li>
+      <li><strong>Threats:</strong> Malware, phishing, ransomware. <em>Example:</em> Clicking a fake email link can install malware.</li>
+    </ul>
+    <img src="images/cybersecurity.png" alt="Cybersecurity Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>6. Cloud Computing</h3>
+    <p>Cloud computing delivers services like storage and computing power over the internet.</p>
+    <ul>
+      <li><strong>Service models:</strong> IaaS, PaaS, SaaS. <em>Example:</em> Google Docs is SaaS.</li>
+      <li><strong>Deployment models:</strong> Public, private, hybrid. <em>Example:</em> AWS (public cloud).</li>
+      <li><strong>Providers:</strong> AWS, Azure, Google Cloud. <em>Example:</em> Hosting a website on AWS.</li>
+    </ul>
+    <img src="images/cloud.png" alt="Cloud Computing Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>7. Web Development</h3>
+    <p>Web development builds websites and applications.</p>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, JS for user interface. <em>Example:</em> Designing a login form.</li>
+      <li><strong>Backend:</strong> Server logic with Node.js, PHP. <em>Example:</em> Handling user login requests.</li>
+      <li><strong>Frameworks:</strong> React, Angular. <em>Example:</em> Building a dynamic dashboard with React.</li>
+    </ul>
+    <img src="images/webdev.png" alt="Web Development Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>8. Software Engineering</h3>
+    <p>Software engineering applies structured methods to build reliable software.</p>
+    <ul>
+      <li><strong>SDLC:</strong> Phases from requirements to maintenance. <em>Example:</em> Agile sprints in app development.</li>
+      <li><strong>Agile vs Waterfall:</strong> Iterative vs sequential. <em>Example:</em> Scrum meetings in Agile.</li>
+      <li><strong>Version control:</strong> Git tracks changes. <em>Example:</em> GitHub repositories for collaboration.</li>
+    </ul>
+    <img src="images/software.png" alt="Software Engineering Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>9. Mobile Application Development</h3>
+    <p>Mobile apps run on smartphones and tablets.</p>
+    <ul>
+      <li><strong>Android:</strong> Java, Kotlin. <em>Example:</em> WhatsApp built for Android.</li>
+      <li><strong>iOS:</strong> Swift. <em>Example:</em> Safari browser on iPhone.</li>
+      <li><strong>Cross‑platform:</strong> Flutter, React Native. <em>Example:</em> Facebook app runs on both iOS and Android.</li>
+    </ul>
+    <img src="images/mobile.png" alt="Mobile Development Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>10. Artificial Intelligence</h3>
+    <p>AI simulates human intelligence in machines.</p>
+    <ul>
+      <li><strong>Machine learning:</strong> Algorithms learn from data. <em>Example:</em> Netflix recommendations.</li>
+      <li><strong>Neural networks:</strong> Mimic brain neurons. <em>Example:</em> Image recognition in Google Photos.</li>
+      <li><strong>Applications:</strong> Chatbots, self‑driving cars. <em>Example:</em> Siri answering questions.</li>
+    </ul>
+    <img src="images/ai.png" alt="AI Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>11. Data Science</h3>
+    <p>Data science extracts insights from raw data.</p>
+    <ul>
+      <li><strong>Data collection:</strong> Gathering data from sources. <em>Example:</em> Surveys for customer feedback.</li>
+      <li><strong>Visualization:</strong> Charts and dashboards. <em>Example:</em> Sales trends in Tableau.</li>
+      <li><strong>Predictive analytics:</strong> Forecasting outcomes. <em>Example:</em> Predicting student performance using ML.</li>
+    </ul>
+    <img src="images/datascience.png" alt="Data Science Diagram">
+  </div>
+
+    <div class="training-module">
+    <h3>12. Internet of Things (IoT)</h3>
+    <p>IoT connects everyday devices to the internet, enabling automation and smart functionality.</p>
+    <ul>
+      <li><strong>Sensors:</strong> Devices that collect data such as temperature, motion, or humidity. <em>Example:</em> A smart thermostat uses sensors to adjust room temperature automatically.</li>
+      <li><strong>Protocols:</strong> Communication standards like MQTT and CoAP allow IoT devices to exchange data. <em>Example:</em> Smart bulbs controlled via MQTT messages from a mobile app.</li>
+      <li><strong>Applications:</strong> IoT is used in smart homes, healthcare, and agriculture. <em>Example:</em> Wearable fitness trackers monitor heart rate and sync data to your phone.</li>
+    </ul>
+    <img src="images/iot.png" alt="IoT Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>13. Blockchain Technology</h3>
+    <p>Blockchain is a decentralized ledger system that ensures transparency and security in transactions.</p>
+    <ul>
+      <li><strong>Structure:</strong> Data is stored in blocks linked together chronologically. <em>Example:</em> Bitcoin transactions recorded in a blockchain ledger.</li>
+      <li><strong>Cryptocurrencies:</strong> Digital currencies like Bitcoin and Ethereum operate on blockchain. <em>Example:</em> Paying for goods using Bitcoin.</li>
+      <li><strong>Smart contracts:</strong> Self‑executing agreements coded on blockchain. <em>Example:</em> Ethereum smart contracts automatically transfer funds when conditions are met.</li>
+    </ul>
+    <img src="images/blockchain.png" alt="Blockchain Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>14. IT Project Management</h3>
+    <p>Project management ensures IT projects are delivered on time, within scope, and budget.</p>
+    <ul>
+      <li><strong>Planning:</strong> Defining objectives, timelines, and resources. <em>Example:</em> Creating a Gantt chart for a software rollout.</li>
+      <li><strong>Monitoring:</strong> Tracking progress and adjusting plans. <em>Example:</em> Weekly Scrum meetings in Agile projects.</li>
+      <li><strong>Tools:</strong> Software like Jira, Trello, and MS Project help manage tasks. <em>Example:</em> Using Trello boards to assign tasks to developers.</li>
+    </ul>
+    <img src="images/project.png" alt="Project Management Diagram">
+  </div>
+
+  <div class="training-module">
+    <h3>15. Emerging Technologies</h3>
+    <p>Emerging technologies are shaping the future of IT and society, offering new opportunities and challenges.</p>
+    <ul>
+      <li><strong>Quantum computing:</strong> Uses quantum bits (qubits) for faster processing. <em>Example:</em> Google’s quantum computer solving complex problems faster than classical computers.</li>
+      <li><strong>5G networks:</strong> Provide ultra‑fast internet speeds and low latency. <em>Example:</em> Streaming 4K video seamlessly on mobile devices.</li>
+      <li><strong>AR/VR:</strong> Augmented and virtual reality enhance experiences. <em>Example:</em> VR headsets used in medical training simulations.</li>
+    </ul>
+    <img src="images/emerging.png" alt="Emerging Tech Diagram">
+  </div>
+</section>
+
+
+   <section id="informationtechnologyQuestions" class="section">
+  <h2>Assessment Questions</h2>
+  <form id="quizForm">
+    <!-- Q1: IT Introduction -->
+    <div class="question">
+      <p>1. What does Information Technology primarily involve?</p>
+      <label><input type="radio" name="q1" value="A"> A. Managing and processing information using computers</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Farming and agriculture</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Cooking and hospitality</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Manual labor</label>
+    </div>
+
+    <!-- Q2: Networking -->
+    <div class="question">
+      <p>2. Which protocol is used to transfer web pages?</p>
+      <label><input type="radio" name="q2" value="A"> A. FTP</label><br>
+      <label><input type="radio" name="q2" value="B"> B. HTTP</label><br>
+      <label><input type="radio" name="q2" value="C"> C. SMTP</label><br>
+      <label><input type="radio" name="q2" value="D"> D. POP3</label>
+    </div>
+
+    <!-- Q3: Operating Systems -->
+    <div class="question">
+      <p>3. Which component of an OS manages processes and memory?</p>
+      <label><input type="radio" name="q3" value="A"> A. Kernel</label><br>
+      <label><input type="radio" name="q3" value="B"> B. File Explorer</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Taskbar</label><br>
+      <label><input type="radio" name="q3" value="D"> D. BIOS</label>
+    </div>
+
+    <!-- Q4: Databases -->
+    <div class="question">
+      <p>4. Which query retrieves all records from a table?</p>
+      <label><input type="radio" name="q4" value="A"> A. SELECT * FROM table;</label><br>
+      <label><input type="radio" name="q4" value="B"> B. DELETE FROM table;</label><br>
+      <label><input type="radio" name="q4" value="C"> C. UPDATE table;</label><br>
+      <label><input type="radio" name="q4" value="D"> D. INSERT INTO table;</label>
+    </div>
+
+    <!-- Q5: Cybersecurity -->
+    <div class="question">
+      <p>5. WhatsApp uses which technique to secure communication?</p>
+      <label><input type="radio" name="q5" value="A"> A. End-to-end encryption</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Firewalls</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Antivirus</label><br>
+      <label><input type="radio" name="q5" value="D"> D. VPN</label>
+    </div>
+
+    <!-- Q6: Cloud Computing -->
+    <div class="question">
+      <p>6. Google Docs is an example of:</p>
+      <label><input type="radio" name="q6" value="A"> A. IaaS</label><br>
+      <label><input type="radio" name="q6" value="B"> B. PaaS</label><br>
+      <label><input type="radio" name="q6" value="C"> C. SaaS</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Hybrid Cloud</label>
+    </div>
+
+    <!-- Q7: Web Development -->
+    <div class="question">
+      <p>7. Which language is used for webpage structure?</p>
+      <label><input type="radio" name="q7" value="A"> A. CSS</label><br>
+      <label><input type="radio" name="q7" value="B"> B. HTML</label><br>
+      <label><input type="radio" name="q7" value="C"> C. JavaScript</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Python</label>
+    </div>
+
+    <!-- Q8: Software Engineering -->
+    <div class="question">
+      <p>8. Which tool is used for version control?</p>
+      <label><input type="radio" name="q8" value="A"> A. Git</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Jira</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Trello</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Slack</label>
+    </div>
+
+    <!-- Q9: Mobile Development -->
+    <div class="question">
+      <p>9. Which language is commonly used for Android apps?</p>
+      <label><input type="radio" name="q9" value="A"> A. Kotlin</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Swift</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Objective-C</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Ruby</label>
+    </div>
+
+    <!-- Q10: AI -->
+    <div class="question">
+      <p>10. Netflix recommendations are powered by:</p>
+      <label><input type="radio" name="q10" value="A"> A. Machine Learning</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Blockchain</label><br>
+      <label><input type="radio" name="q10" value="C"> C. IoT</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Quantum Computing</label>
+    </div>
+
+    <!-- Q11: Data Science -->
+    <div class="question">
+      <p>11. Which tool is used for data visualization?</p>
+      <label><input type="radio" name="q11" value="A"> A. Tableau</label><br>
+      <label><input type="radio" name="q11" value="B"> B. GitHub</label><br>
+      <label><input type="radio" name="q11" value="C"> C. Trello</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Slack</label>
+    </div>
+
+    <!-- Q12: IoT -->
+    <div class="question">
+      <p>12. Which protocol is commonly used in IoT communication?</p>
+      <label><input type="radio" name="q12" value="A"> A. MQTT</label><br>
+      <label><input type="radio" name="q12" value="B"> B. HTTP</label><br>
+      <label><input type="radio" name="q12" value="C"> C. SMTP</label><br>
+      <label><input type="radio" name="q12" value="D"> D. POP3</label>
+    </div>
+
+    <!-- Q13: Blockchain -->
+    <div class="question">
+      <p>13. Bitcoin transactions are recorded on:</p>
+      <label><input type="radio" name="q13" value="A"> A. Blockchain</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Cloud</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Database</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Spreadsheet</label>
+    </div>
+
+    <!-- Q14: Project Management -->
+    <div class="question">
+      <p>14. Which tool is commonly used for Agile project management?</p>
+      <label><input type="radio" name="q14" value="A"> A. Jira</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Photoshop</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Excel</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Word</label>
+    </div>
+
+        <!-- Q15: Emerging Tech -->
+    <div class="question">
+      <p>15. Which technology uses qubits for faster processing?</p>
+      <label><input type="radio" name="q15" value="A"> A. Quantum Computing</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Blockchain</label><br>
+      <label><input type="radio" name="q15" value="C"> C. IoT</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Cloud Computing</label>
+    </div>
+
+    <!-- Q16: IT Fundamentals -->
+    <div class="question">
+      <p>16. Which of the following is an application of IT in education?</p>
+      <label><input type="radio" name="q16" value="A"> A. Online learning platforms</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Traditional chalkboards</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Manual filing cabinets</label>
+    </div>
+
+    <!-- Q17: Networking -->
+    <div class="question">
+      <p>17. Which device directs traffic between networks?</p>
+      <label><input type="radio" name="q17" value="A"> A. Router</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Switch</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Firewall</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Hub</label>
+    </div>
+
+    <!-- Q18: Cybersecurity -->
+    <div class="question">
+      <p>18. Which of these is a common cyber threat?</p>
+      <label><input type="radio" name="q18" value="A"> A. Phishing</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Gardening</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Cooking</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Driving</label>
+    </div>
+
+    <!-- Q19: Cloud -->
+    <div class="question">
+      <p>19. Which deployment model combines public and private clouds?</p>
+      <label><input type="radio" name="q19" value="A"> A. Hybrid Cloud</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Public Cloud</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Private Cloud</label><br>
+      <label><input type="radio" name="q19" value="D"> D. SaaS</label>
+    </div>
+
+    <!-- Q20: Project Management -->
+    <div class="question">
+      <p>20. Which chart is commonly used to visualize project timelines?</p>
+      <label><input type="radio" name="q20" value="A"> A. Gantt Chart</label><br>
+      <label><input type="radio" name="q20" value="B"> B. Pie Chart</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Bar Chart</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Line Chart</label>
+    </div>
+
+     <button type="button" onclick="submitQuiz('Information Technology')">Submit Quiz</button>
+  </form>
+  <div id="result"></div>
+</section>
+
+<!-- Healthcare Training Section -->
+<section id="healthcareTraining" class="section">
+  <h2>Healthcare Training Modules</h2>
+
+  <div class="training-module">
+    <h3>1. Telemedicine and Patient Access</h3>
+    <p>Remote consultations via video calls reduce travel costs and improve access in rural areas.</p>
+    <ul>
+      <li><strong>Definition:</strong> Telemedicine uses ICT to deliver healthcare remotely. <em>Example:</em> A patient in Homa Bay connects with a Nairobi specialist via Zoom.</li>
+      <li><strong>Impact:</strong> Expands healthcare access to underserved communities.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>2. AI in Diagnostics</h3>
+    <p>Machine learning analyzes medical images to detect diseases earlier.</p>
+    <ul>
+      <li><strong>Definition:</strong> AI systems trained on medical data. <em>Example:</em> AI spotting lung cancer in X‑rays faster than radiologists.</li>
+      <li><strong>Impact:</strong> Improves accuracy and speed of diagnosis.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>3. Wearable Health Devices</h3>
+    <p>Smartwatches and fitness trackers monitor heart rate, sleep, and activity.</p>
+    <ul>
+      <li><strong>Definition:</strong> Devices worn on the body to collect health data. <em>Example:</em> Fitbit alerts users to irregular heartbeat.</li>
+      <li><strong>Impact:</strong> Empowers patients to monitor their own health.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>4. Electronic Health Records (EHRs)</h3>
+    <p>Digital records improve hospital data sharing and reduce paperwork.</p>
+    <ul>
+      <li><strong>Definition:</strong> EHRs store patient data electronically. <em>Example:</em> Doctors accessing patient history instantly via EHR systems.</li>
+      <li><strong>Impact:</strong> Enhances continuity of care.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>5. Robotics in Surgery</h3>
+    <p>Robotic systems allow minimally invasive procedures with higher precision.</p>
+    <ul>
+      <li><strong>Definition:</strong> Robots assist surgeons in complex operations. <em>Example:</em> Da Vinci robot assisting in cardiac surgery.</li>
+      <li><strong>Impact:</strong> Reduces recovery time and surgical risks.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>6. Mobile Health Apps</h3>
+    <p>Apps help patients track medication, symptoms, and appointments.</p>
+    <ul>
+      <li><strong>Definition:</strong> Mobile apps for health monitoring. <em>Example:</em> Diabetes management apps reminding insulin schedules.</li>
+      <li><strong>Impact:</strong> Improves patient self‑management.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>7. Genomics and AI</h3>
+    <p>Technology enables personalized medicine by analyzing genetic data.</p>
+    <ul>
+      <li><strong>Definition:</strong> Genomics studies DNA sequences. <em>Example:</em> AI predicting cancer risk from DNA.</li>
+      <li><strong>Impact:</strong> Enables tailored treatments.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>8. 3D Printing in Prosthetics</h3>
+    <p>Custom prosthetics can be produced quickly and affordably.</p>
+    <ul>
+      <li><strong>Definition:</strong> 3D printers create medical devices. <em>Example:</em> 3D‑printed limb replacements tailored to patient anatomy.</li>
+      <li><strong>Impact:</strong> Increases accessibility of prosthetics.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>9. Virtual Reality in Therapy</h3>
+    <p>VR helps patients with rehabilitation and mental health treatments.</p>
+    <ul>
+      <li><strong>Definition:</strong> VR simulates environments for therapy. <em>Example:</em> VR exposure therapy for phobia treatment.</li>
+      <li><strong>Impact:</strong> Enhances patient recovery experiences.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>10. Cloud Storage for Health Data</h3>
+    <p>Doctors securely access patient files from anywhere.</p>
+    <ul>
+      <li><strong>Definition:</strong> Cloud platforms store medical data. <em>Example:</em> Cloud‑based imaging systems storing MRI scans.</li>
+      <li><strong>Impact:</strong> Improves collaboration among providers.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>11. IoT in Hospitals</h3>
+    <p>Connected devices monitor equipment and patient vitals continuously.</p>
+    <ul>
+      <li><strong>Definition:</strong> IoT links hospital devices. <em>Example:</em> Smart beds tracking patient movement.</li>
+      <li><strong>Impact:</strong> Enhances patient safety.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>12. Predictive Analytics</h3>
+    <p>AI forecasts disease outbreaks and hospital resource needs.</p>
+    <ul>
+      <li><strong>Definition:</strong> Analytics predict future outcomes. <em>Example:</em> Predicting flu spread using health data.</li>
+      <li><strong>Impact:</strong> Improves planning and resource allocation.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>13. Blockchain in Health</h3>
+    <p>Ensures secure, tamper‑proof medical records.</p>
+    <ul>
+      <li><strong>Definition:</strong> Blockchain stores health data securely. <em>Example:</em> Patient consent stored on blockchain.</li>
+      <li><strong>Impact:</strong> Increases trust in data integrity.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>14. Drones in Medical Supply Delivery</h3>
+    <p>Fast delivery of vaccines and blood samples to remote areas.</p>
+    <ul>
+      <li><strong>Definition:</strong> Drones transport medical supplies. <em>Example:</em> Zipline drones delivering blood in Rwanda.</li>
+      <li><strong>Impact:</strong> Saves lives in emergencies.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>15. Cybersecurity in Healthcare</h3>
+    <p>Protecting sensitive patient data from hackers.</p>
+    <ul>
+      <li><strong>Definition:</strong> Cybersecurity safeguards health systems. <em>Example:</em> Hospitals using encryption to secure patient records.</li>
+      <li><strong>Impact:</strong> Prevents data breaches and identity theft.</li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="healthcareQuestions" class="section">
+  <h2>Health Assessment Questions</h2>
+  <form id="quizForm">
+
+    <div class="question">
+      <p>1. Which technology allows remote doctor consultations?</p>
+      <label><input type="radio" name="q1" value="A"> A. Telemedicine</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Robotics</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Genomics</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Blockchain</label>
+    </div>
+
+    <div class="question">
+      <p>2. What device tracks heart rate continuously?</p>
+      <label><input type="radio" name="q2" value="A"> A. Wearable health device</label><br>
+      <label><input type="radio" name="q2" value="B"> B. Mobile app</label><br>
+      <label><input type="radio" name="q2" value="C"> C. Cloud server</label><br>
+      <label><input type="radio" name="q2" value="D"> D. Drone</label>
+    </div>
+
+        <div class="question">
+      <p>3. What does EHR stand for?</p>
+      <label><input type="radio" name="q3" value="A"> A. Electronic Health Records</label><br>
+      <label><input type="radio" name="q3" value="B"> B. Emergency Health Response</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Enhanced Hospital Resources</label><br>
+      <label><input type="radio" name="q3" value="D"> D. Electronic Hospital Reports</label>
+    </div>
+
+    <div class="question">
+      <p>4. Which robot assists in surgery?</p>
+      <label><input type="radio" name="q4" value="A"> A. Da Vinci</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Atlas</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Sophia</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Pepper</label>
+    </div>
+
+    <div class="question">
+      <p>5. Which app monitors diabetes?</p>
+      <label><input type="radio" name="q5" value="A"> A. Glucose Tracker</label><br>
+      <label><input type="radio" name="q5" value="B"> B. WhatsApp</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Facebook</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Twitter</label>
+    </div>
+
+    <div class="question">
+      <p>6. What is telemedicine?</p>
+      <label><input type="radio" name="q6" value="A"> A. Remote medical consultation</label><br>
+      <label><input type="radio" name="q6" value="B"> B. Hospital surgery</label><br>
+      <label><input type="radio" name="q6" value="C"> C. DNA sequencing</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Blockchain record keeping</label>
+    </div>
+
+    <div class="question">
+      <p>7. Which technology predicts epidemics?</p>
+      <label><input type="radio" name="q7" value="A"> A. Predictive analytics</label><br>
+      <label><input type="radio" name="q7" value="B"> B. IoT</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Robotics</label><br>
+      <label><input type="radio" name="q7" value="D"> D. VR</label>
+    </div>
+
+    <div class="question">
+      <p>8. What is genomics?</p>
+      <label><input type="radio" name="q8" value="A"> A. Study of genes</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Study of viruses</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Study of bacteria</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Study of robotics</label>
+    </div>
+
+    <div class="question">
+      <p>9. Which device prints prosthetics?</p>
+      <label><input type="radio" name="q9" value="A"> A. 3D printer</label><br>
+      <label><input type="radio" name="q9" value="B"> B. IoT sensor</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Cloud server</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Drone</label>
+    </div>
+
+    <div class="question">
+      <p>10. What is VR therapy?</p>
+      <label><input type="radio" name="q10" value="A"> A. Virtual reality rehabilitation</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Surgery</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Telemedicine</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Blockchain</label>
+    </div>
+
+    <div class="question">
+      <p>11. Which cloud service stores patient data?</p>
+      <label><input type="radio" name="q11" value="A"> A. Cloud storage</label><br>
+      <label><input type="radio" name="q11" value="B"> B. IoT</label><br>
+      <label><input type="radio" name="q11" value="C"> C. VR</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Blockchain</label>
+    </div>
+
+    <div class="question">
+      <p>12. What is IoT in hospitals?</p>
+      <label><input type="radio" name="q12" value="A"> A. Connected devices monitoring patients</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Telemedicine</label><br>
+      <label><input type="radio" name="q12" value="C"> C. DNA sequencing</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Robotics</label>
+    </div>
+
+    <div class="question">
+      <p>13. Which technology secures health records?</p>
+      <label><input type="radio" name="q13" value="A"> A. Blockchain</label><br>
+      <label><input type="radio" name="q13" value="B"> B. VR</label><br>
+      <label><input type="radio" name="q13" value="C"> C. IoT</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Robotics</label>
+    </div>
+
+    <div class="question">
+      <p>14. What is predictive analytics?</p>
+      <label><input type="radio" name="q14" value="A"> A. Forecasting outcomes using data</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Surgery</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Telemedicine</label><br>
+      <label><input type="radio" name="q14" value="D"> D. VR</label>
+    </div>
+
+    <div class="question">
+      <p>15. Which drones deliver vaccines?</p>
+      <label><input type="radio" name="q15" value="A"> A. Zipline</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Amazon</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Tesla</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Facebook</label>
+    </div>
+
+    <div class="question">
+      <p>16. What is cybersecurity in healthcare?</p>
+      <label><input type="radio" name="q16" value="A"> A. Protecting patient data</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Surgery</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Telemedicine</label><br>
+      <label><input type="radio" name="q16" value="D"> D. VR</label>
+    </div>
+
+    <div class="question">
+      <p>17. Which AI tool reads X‑rays?</p>
+      <label><input type="radio" name="q17" value="A"> A. Diagnostic AI</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Blockchain</label><br>
+      <label><input type="radio" name="q17" value="C"> C. IoT</label><br>
+      <label><input type="radio" name="q17" value="D"> D. VR</label>
+    </div>
+
+        <div class="question">
+      <p>18. What is mobile health?</p>
+      <label><input type="radio" name="q18" value="A"> A. Apps for patient monitoring</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Surgery</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Robotics</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Blockchain</label>
+    </div>
+
+    <div class="question">
+      <p>19. Which wearable tracks sleep?</p>
+      <label><input type="radio" name="q19" value="A"> A. Fitbit</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Drone</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Cloud server</label><br>
+      <label><input type="radio" name="q19" value="D"> D. IoT sensor</label>
+    </div>
+
+    <div class="question">
+      <p>20. What is blockchain in health?</p>
+      <label><input type="radio" name="q20" value="A"> A. Secure medical records</label><br>
+      <label><input type="radio" name="q20" value="B"> B. VR therapy</label><br>
+      <label><input type="radio" name="q20" value="C"> C. IoT monitoring</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Robotics</label>
+    </div>
+
+    <button type="button" class="submit" onclick="submitQuiz('Healthcare')">Submit</button>
+  </form>
+  <div id="result"></div>
+</section>
+
+<!-- Finance Training Section -->
+<section id="financeTraining" class="section">
+  <h2>Finance Training Modules</h2>
+
+  <div class="training-module">
+    <h3>1. Mobile Banking Apps</h3>
+    <p>Mobile apps allow customers to access accounts and transfer money securely.</p>
+    <ul>
+      <li><strong>Definition:</strong> Banking services via smartphones.</li>
+      <li><strong>Example:</strong> M‑Pesa in Kenya allows instant transfers.</li>
+      <li><strong>Impact:</strong> Expands financial inclusion for rural populations.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>2. Blockchain and Cryptocurrency</h3>
+    <p>Blockchain enables decentralized digital currencies like Bitcoin.</p>
+    <ul>
+      <li><strong>Definition:</strong> Distributed ledger technology.</li>
+      <li><strong>Example:</strong> Ethereum smart contracts execute automatically.</li>
+      <li><strong>Impact:</strong> Increases transparency and reduces fraud.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>3. AI in Fraud Detection</h3>
+    <p>AI systems detect unusual patterns to prevent fraud.</p>
+    <ul>
+      <li><strong>Example:</strong> Banks using AI to flag suspicious transactions.</li>
+      <li><strong>Impact:</strong> Protects customers and institutions from losses.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>4. Algorithmic Trading</h3>
+    <p>Automated systems execute trades at high speed.</p>
+    <ul>
+      <li><strong>Example:</strong> Hedge funds using trading bots.</li>
+      <li><strong>Impact:</strong> Increases efficiency but can cause volatility.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>5. FinTech Startups</h3>
+    <p>Innovative companies disrupt traditional finance.</p>
+    <ul>
+      <li><strong>Example:</strong> PayPal, Revolut.</li>
+      <li><strong>Impact:</strong> Provides cheaper, faster services.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>6. Digital Wallets</h3>
+    <p>Apps store payment info for transactions.</p>
+    <ul>
+      <li><strong>Example:</strong> Apple Pay, Google Pay.</li>
+      <li><strong>Impact:</strong> Simplifies online and in‑store payments.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>7. Robo‑Advisors</h3>
+    <p>AI provides investment guidance.</p>
+    <ul>
+      <li><strong>Example:</strong> Betterment, Wealthfront.</li>
+      <li><strong>Impact:</strong> Makes investing accessible to beginners.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>8. Cloud Computing in Finance</h3>
+    <p>Financial institutions use cloud for scalability.</p>
+    <ul>
+      <li><strong>Example:</strong> Banks hosting services on AWS.</li>
+      <li><strong>Impact:</strong> Reduces infrastructure costs.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>9. Cybersecurity in Banking</h3>
+    <p>Protecting financial data from hackers.</p>
+    <ul>
+      <li><strong>Example:</strong> Multi‑factor authentication.</li>
+      <li><strong>Impact:</strong> Builds customer trust.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>10. Big Data in Finance</h3>
+    <p>Analyzing customer data for insights.</p>
+    <ul>
+      <li><strong>Example:</strong> Predicting loan defaults.</li>
+      <li><strong>Impact:</strong> Improves decision‑making.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>11. Biometric Authentication</h3>
+    <p>Fingerprint and facial recognition secure accounts.</p>
+    <ul>
+      <li><strong>Example:</strong> Face ID for mobile banking.</li>
+      <li><strong>Impact:</strong> Enhances security.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>12. Smart Contracts</h3>
+    <p>Self‑executing agreements coded on blockchain.</p>
+    <ul>
+      <li><strong>Example:</strong> Automatic fund transfers.</li>
+      <li><strong>Impact:</strong> Reduces need for intermediaries.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>13. Peer‑to‑Peer Lending</h3>
+    <p>Platforms connect borrowers and lenders directly.</p>
+    <ul>
+      <li><strong>Example:</strong> LendingClub.</li>
+      <li><strong>Impact:</strong> Provides access to credit.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>14. RegTech</h3>
+    <p>Technology helps firms comply with regulations.</p>
+    <ul>
+      <li><strong>Example:</strong> Automated compliance reporting.</li>
+      <li><strong>Impact:</strong> Reduces regulatory risk.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>15. Predictive Analytics</h3>
+    <p>Forecasting market trends using AI.</p>
+    <ul>
+      <li><strong>Example:</strong> Stock market predictions.</li>
+      <li><strong>Impact:</strong> Improves investment strategies.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="financeQuestions" class="section">
+  <h2>Finance Assessment Questions</h2>
+  <form id="quizForm">
+
+    <div class="question"><p>1. Which technology powers Bitcoin?</p>
+      <label><input type="radio" name="q1" value="A"> A. Blockchain</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Cloud</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Database</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Spreadsheet</label>
+    </div>
+
+    <div class="question"><p>2. What is the role of AI in finance?</p>
+      <label><input type="radio" name="q2" value="A"> A. Fraud detection</label><br>
+      <label><input type="radio" name="q2" value="B"> B. Cooking</label><br>
+      <label><input type="radio" name="q2" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q2" value="D"> D. Driving</label>
+    </div>
+
+    <div class="question"><p>3. What is a digital wallet?</p>
+      <label><input type="radio" name="q3" value="A"> A. An app storing payment info</label><br>
+      <label><input type="radio" name="q3" value="B"> B. A physical purse</label><br>
+      <label><input type="radio" name="q3" value="C"> C. A bank vault</label><br>
+      <label><input type="radio" name="q3" value="D"> D. A spreadsheet</label>
+    </div>
+
+    <div class="question"><p>4. What is algorithmic trading?</p>
+      <label><input type="radio" name="q4" value="A"> A. Automated stock trades</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Manual farming</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Cooking recipes</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Driving cars</label>
+    </div>
+
+        <div class="question"><p>5. What is FinTech?</p>
+      <label><input type="radio" name="q5" value="A"> A. Financial technology startups</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Farming tools</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Cooking methods</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Driving techniques</label>
+    </div>
+
+    <div class="question"><p>6. What is a digital wallet?</p>
+      <label><input type="radio" name="q6" value="A"> A. App storing payment info</label><br>
+      <label><input type="radio" name="q6" value="B"> B. Bank vault</label><br>
+      <label><input type="radio" name="q6" value="C"> C. Spreadsheet</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Physical purse</label>
+    </div>
+
+    <div class="question"><p>7. What is a robo‑advisor?</p>
+      <label><input type="radio" name="q7" value="A"> A. AI investment guidance</label><br>
+      <label><input type="radio" name="q7" value="B"> B. Human banker</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Cooking robot</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Farming machine</label>
+    </div>
+
+    <div class="question"><p>8. What is algorithmic trading?</p>
+      <label><input type="radio" name="q8" value="A"> A. Automated stock trades</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Manual farming</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Cooking recipes</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>9. What is biometric authentication?</p>
+      <label><input type="radio" name="q9" value="A"> A. Fingerprint/face recognition</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Password only</label><br>
+      <label><input type="radio" name="q9" value="C"> C. PIN code</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Security questions</label>
+    </div>
+
+    <div class="question"><p>10. What is RegTech?</p>
+      <label><input type="radio" name="q10" value="A"> A. Regulatory technology</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Farming technology</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Cooking technology</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Driving technology</label>
+    </div>
+
+    <div class="question"><p>11. What is peer‑to‑peer lending?</p>
+      <label><input type="radio" name="q11" value="A"> A. Borrowers connect directly to lenders</label><br>
+      <label><input type="radio" name="q11" value="B"> B. Borrowing from banks only</label><br>
+      <label><input type="radio" name="q11" value="C"> C. Borrowing from family</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Borrowing from government</label>
+    </div>
+
+    <div class="question"><p>12. What is a smart contract?</p>
+      <label><input type="radio" name="q12" value="A"> A. Self‑executing blockchain agreement</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Paper contract</label><br>
+      <label><input type="radio" name="q12" value="C"> C. Verbal agreement</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Email agreement</label>
+    </div>
+
+    <div class="question"><p>13. What is predictive analytics in finance?</p>
+      <label><input type="radio" name="q13" value="A"> A. Forecasting market trends</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Farming yields</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Driving routes</label>
+    </div>
+
+    <div class="question"><p>14. What is cybersecurity in banking?</p>
+      <label><input type="radio" name="q14" value="A"> A. Protecting financial data</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>15. What is big data in finance?</p>
+      <label><input type="radio" name="q15" value="A"> A. Analyzing large datasets</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Farming yields</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Driving routes</label>
+    </div>
+
+    <div class="question"><p>16. What is cloud computing in finance?</p>
+      <label><input type="radio" name="q16" value="A"> A. Hosting services on cloud platforms</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>17. What is blockchain’s impact on finance?</p>
+      <label><input type="radio" name="q17" value="A"> A. Transparency and security</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Cooking</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Driving</label>
+    </div>
+
+    <div class="question"><p>18. What is biometric authentication used for?</p>
+      <label><input type="radio" name="q18" value="A"> A. Secure account access</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Cooking</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Driving</label>
+    </div>
+
+    <div class="question"><p>19. What is peer‑to‑peer lending’s impact?</p>
+      <label><input type="radio" name="q19" value="A"> A. Provides access to credit</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Cooking</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q19" value="D"> D. Driving</label>
+    </div>
+
+        <div class="question"><p>20. What is predictive analytics used for?</p>
+      <label><input type="radio" name="q20" value="A"> A. Forecasting market trends</label><br>
+      <label><input type="radio" name="q20" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Farming yields</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Driving routes</label>
+    </div>
+
+    <button type="button" class="submit" onclick="submitQuiz('Finance')">Submit</button>
+  </form>
+  <div id="result"></div>
+</section>
+<!-- Education Training Section -->
+<section id="educationTraining" class="section">
+  <h2>Education Training Modules</h2>
+
+  <div class="training-module">
+    <h3>1. E‑learning Platforms</h3>
+    <p>Online platforms deliver courses globally.</p>
+    <ul>
+      <li><strong>Definition:</strong> Digital learning systems accessible via the internet.</li>
+      <li><strong>Example:</strong> Coursera, Udemy.</li>
+      <li><strong>Impact:</strong> Expands access to education worldwide.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>2. AI Tutors</h3>
+    <p>AI provides personalized learning experiences.</p>
+    <ul>
+      <li><strong>Definition:</strong> Intelligent tutoring systems adapt to student needs.</li>
+      <li><strong>Example:</strong> Chatbot tutors guiding students.</li>
+      <li><strong>Impact:</strong> Improves learning outcomes.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>3. Virtual Classrooms</h3>
+    <p>Students and teachers interact remotely in real time.</p>
+    <ul>
+      <li><strong>Example:</strong> Zoom classes during COVID‑19.</li>
+      <li><strong>Impact:</strong> Enables continuity of learning.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>4. Gamification in Learning</h3>
+    <p>Game elements motivate students.</p>
+    <ul>
+      <li><strong>Example:</strong> Kahoot quizzes.</li>
+      <li><strong>Impact:</strong> Increases student engagement.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>5. Mobile Learning Apps</h3>
+    <p>Apps deliver lessons on smartphones.</p>
+    <ul>
+      <li><strong>Example:</strong> Duolingo for languages.</li>
+      <li><strong>Impact:</strong> Learning on the go.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>6. Cloud Storage for Education</h3>
+    <p>Students share resources online.</p>
+    <ul>
+      <li><strong>Example:</strong> Google Drive for assignments.</li>
+      <li><strong>Impact:</strong> Facilitates collaboration.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>7. VR in Education</h3>
+    <p>Immersive experiences enhance learning.</p>
+    <ul>
+      <li><strong>Example:</strong> VR science labs.</li>
+      <li><strong>Impact:</strong> Makes abstract concepts tangible.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>8. AR in Classrooms</h3>
+    <p>Interactive content overlays real world.</p>
+    <ul>
+      <li><strong>Example:</strong> AR anatomy apps.</li>
+      <li><strong>Impact:</strong> Improves visualization.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>9. Digital Libraries</h3>
+    <p>Access to knowledge online.</p>
+    <ul>
+      <li><strong>Example:</strong> JSTOR, Google Scholar.</li>
+      <li><strong>Impact:</strong> Democratizes information.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>10. Online Assessments</h3>
+    <p>Automated grading systems.</p>
+    <ul>
+      <li><strong>Example:</strong> Google Forms quizzes.</li>
+      <li><strong>Impact:</strong> Saves teacher time.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>11. Adaptive Learning Systems</h3>
+    <p>Systems adjust to student pace.</p>
+    <ul>
+      <li><strong>Example:</strong> Smart Sparrow.</li>
+      <li><strong>Impact:</strong> Personalized learning paths.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>12. Collaboration Tools</h3>
+    <p>Group projects online.</p>
+    <ul>
+      <li><strong>Example:</strong> Microsoft Teams, Slack.</li>
+      <li><strong>Impact:</strong> Enhances teamwork.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>13. Cybersecurity in Education</h3>
+    <p>Protecting student data from breaches.</p>
+    <ul>
+      <li><strong>Example:</strong> Secure LMS platforms.</li>
+      <li><strong>Impact:</strong> Maintains trust in digital learning.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>14. Predictive Analytics</h3>
+    <p>Forecasting student performance.</p>
+    <ul>
+      <li><strong>Example:</strong> Early warning systems for dropouts.</li>
+      <li><strong>Impact:</strong> Improves retention rates.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>15. Blockchain in Education</h3>
+    <p>Secures academic credentials.</p>
+    <ul>
+      <li><strong>Example:</strong> Diplomas stored on blockchain.</li>
+      <li><strong>Impact:</strong> Prevents forgery.</li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="educationQuestions" class="section">
+  <h2>Education Assessment Questions</h2>
+  <form id="quizForm">
+
+    <div class="question"><p>1. Which platform allows online courses?</p>
+      <label><input type="radio" name="q1" value="A"> A. Coursera</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Photoshop</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Excel</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Word</label>
+    </div>
+
+    <div class="question"><p>2. What is the benefit of gamification?</p>
+      <label><input type="radio" name="q2" value="A"> A. Motivation</label><br>
+      <label><input type="radio" name="q2" value="B"> B. Farming</label><br>
+      <label><input type="radio" name="q2" value="C"> C. Cooking</label><br>
+      <label><input type="radio" name="q2" value="D"> D. Driving</label>
+    </div>
+
+    <div class="question"><p>3. What is a virtual classroom?</p>
+      <label><input type="radio" name="q3" value="A"> A. Online real‑time class</label><br>
+      <label><input type="radio" name="q3" value="B"> B. Physical classroom</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Cooking class</label><br>
+      <label><input type="radio" name="q3" value="D"> D. Driving school</label>
+    </div>
+
+    <div class="question"><p>4. What is an AI tutor?</p>
+      <label><input type="radio" name="q4" value="A"> A. Intelligent tutoring system</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Human teacher</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Cooking robot</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Farming machine</label>
+    </div>
+
+    <div class="question"><p>5. What is mobile learning?</p>
+      <label><input type="radio" name="q5" value="A"> A. Learning via apps</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Farming</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Cooking</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Driving</label>
+    </div>
+
+        <div class="question"><p>6. What is cloud storage used for?</p>
+      <label><input type="radio" name="q6" value="A"> A. Sharing resources</label><br>
+      <label><input type="radio" name="q6" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q6" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>7. What is VR in education?</p>
+      <label><input type="radio" name="q7" value="A"> A. Immersive learning experiences</label><br>
+      <label><input type="radio" name="q7" value="B"> B. Cooking lessons</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Farming tutorials</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Driving practice</label>
+    </div>
+
+    <div class="question"><p>8. What is AR in classrooms?</p>
+      <label><input type="radio" name="q8" value="A"> A. Interactive overlays on real world</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Driving simulators</label>
+    </div>
+
+    <div class="question"><p>9. What is a digital library?</p>
+      <label><input type="radio" name="q9" value="A"> A. Online access to books/articles</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Physical library</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Cooking recipes</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Driving manuals</label>
+    </div>
+
+    <div class="question"><p>10. What are online assessments?</p>
+      <label><input type="radio" name="q10" value="A"> A. Digital quizzes/tests</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Cooking exams</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Farming evaluations</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Driving tests</label>
+    </div>
+
+    <div class="question"><p>11. What is adaptive learning?</p>
+      <label><input type="radio" name="q11" value="A"> A. System adjusts to student pace</label><br>
+      <label><input type="radio" name="q11" value="B"> B. Cooking lessons</label><br>
+      <label><input type="radio" name="q11" value="C"> C. Farming tutorials</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Driving practice</label>
+    </div>
+
+    <div class="question"><p>12. What are collaboration tools?</p>
+      <label><input type="radio" name="q12" value="A"> A. Online teamwork platforms</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Cooking utensils</label><br>
+      <label><input type="radio" name="q12" value="C"> C. Farming equipment</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Driving gear</label>
+    </div>
+
+    <div class="question"><p>13. What is cybersecurity in education?</p>
+      <label><input type="radio" name="q13" value="A"> A. Protecting student data</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>14. What is predictive analytics in education?</p>
+      <label><input type="radio" name="q14" value="A"> A. Forecasting student performance</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Farming yields</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Driving routes</label>
+    </div>
+
+    <div class="question"><p>15. What is blockchain used for in education?</p>
+      <label><input type="radio" name="q15" value="A"> A. Securing academic credentials</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Driving manuals</label>
+    </div>
+
+    <div class="question"><p>16. What is the impact of e‑learning?</p>
+      <label><input type="radio" name="q16" value="A"> A. Expands access globally</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Cooking lessons</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Farming tutorials</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Driving practice</label>
+    </div>
+
+    <div class="question"><p>17. What is the benefit of digital libraries?</p>
+      <label><input type="radio" name="q17" value="A"> A. Democratizes information</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Driving manuals</label>
+    </div>
+
+    <div class="question"><p>18. What is the role of VR in education?</p>
+      <label><input type="radio" name="q18" value="A"> A. Makes abstract concepts tangible</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>19. What is adaptive learning’s impact?</p>
+      <label><input type="radio" name="q19" value="A"> A. Personalized learning paths</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Cooking lessons</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Farming tutorials</label><br>
+      <label><input type="radio" name="q19" value="D"> D. Driving practice</label>
+    </div>
+
+        <div class="question"><p>20. What is blockchain’s impact in education?</p>
+      <label><input type="radio" name="q20" value="A"> A. Prevents forgery of credentials</label><br>
+      <label><input type="radio" name="q20" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Driving manuals</label>
+    </div>
+
+    <button type="button" class="submit" onclick="submitQuiz('Education')">Submit</button>
+  </form>
+  <div id="result"></div>
+</section>
+
+<!-- Agriculture Training Section -->
+<section id="agricultureTraining" class="section">
+  <h2>Agriculture Training Modules</h2>
+  <div class="training-module">
+    <h3>1. Precision Farming</h3>
+    <p>Using GPS and sensors to optimize crop yields.</p>
+    <ul>
+      <li><strong>Definition:</strong> Technology-driven farming practices.</li>
+      <li><strong>Example:</strong> GPS-guided tractors.</li>
+      <li><strong>Impact:</strong> Reduces waste and increases efficiency.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>2. Smart Irrigation Systems</h3>
+    <p>Automated water delivery based on soil moisture.</p>
+    <ul>
+      <li><strong>Example:</strong> Drip irrigation controlled by sensors.</li>
+      <li><strong>Impact:</strong> Conserves water resources.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>3. Drones in Agriculture</h3>
+    <p>Unmanned aerial vehicles monitor crops.</p>
+    <ul>
+      <li><strong>Example:</strong> Drones capturing crop health images.</li>
+      <li><strong>Impact:</strong> Early detection of pests and diseases.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>4. Biotechnology in Crops</h3>
+    <p>Genetic modification improves crop resistance.</p>
+    <ul>
+      <li><strong>Example:</strong> Drought-resistant maize.</li>
+      <li><strong>Impact:</strong> Ensures food security.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>5. Soil Health Monitoring</h3>
+    <p>Analyzing soil nutrients for better farming.</p>
+    <ul>
+      <li><strong>Example:</strong> IoT soil sensors.</li>
+      <li><strong>Impact:</strong> Improves crop quality.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>6. Greenhouse Technology</h3>
+    <p>Controlled environments for crop growth.</p>
+    <ul>
+      <li><strong>Example:</strong> Hydroponic greenhouses.</li>
+      <li><strong>Impact:</strong> Year-round production.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>7. Agricultural Robotics</h3>
+    <p>Machines automate planting and harvesting.</p>
+    <ul>
+      <li><strong>Example:</strong> Robotic harvesters.</li>
+      <li><strong>Impact:</strong> Reduces labor costs.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>8. Climate-Smart Agriculture</h3>
+    <p>Practices that adapt to climate change.</p>
+    <ul>
+      <li><strong>Example:</strong> Crop rotation and cover crops.</li>
+      <li><strong>Impact:</strong> Sustainable farming.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>9. Digital Marketplaces</h3>
+    <p>Platforms connect farmers to buyers.</p>
+    <ul>
+      <li><strong>Example:</strong> Online produce auctions.</li>
+      <li><strong>Impact:</strong> Increases farmer income.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>10. Livestock Monitoring</h3>
+    <p>Wearables track animal health.</p>
+    <ul>
+      <li><strong>Example:</strong> GPS collars for cattle.</li>
+      <li><strong>Impact:</strong> Improves productivity.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>11. Aquaculture Technology</h3>
+    <p>ICT supports fish farming.</p>
+    <ul>
+      <li><strong>Example:</strong> Automated feeding systems.</li>
+      <li><strong>Impact:</strong> Boosts fish yields.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>12. Post-Harvest Management</h3>
+    <p>Technology reduces food loss.</p>
+    <ul>
+      <li><strong>Example:</strong> Cold storage facilities.</li>
+      <li><strong>Impact:</strong> Extends shelf life.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>13. Farm Management Software</h3>
+    <p>Digital tools track farm operations.</p>
+    <ul>
+      <li><strong>Example:</strong> Crop planning apps.</li>
+      <li><strong>Impact:</strong> Improves efficiency.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>14. Renewable Energy in Farming</h3>
+    <p>Solar and wind power for farms.</p>
+    <ul>
+      <li><strong>Example:</strong> Solar-powered irrigation.</li>
+      <li><strong>Impact:</strong> Reduces energy costs.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>15. Agricultural Data Analytics</h3>
+    <p>Big data improves decision-making.</p>
+    <ul>
+      <li><strong>Example:</strong> Yield prediction models.</li>
+      <li><strong>Impact:</strong> Optimizes production.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="agricultureQuestions" class="section">
+  <h2>Agriculture Assessment Questions</h2>
+  <form id="quizForm">
+
+    <div class="question"><p>1. What is precision farming?</p>
+      <label><input type="radio" name="q1" value="A"> A. GPS-based farming</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Driving cars</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Farming manually</label>
+    </div>
+
+    <div class="question"><p>2. What is smart irrigation?</p>
+      <label><input type="radio" name="q2" value="A"> A. Automated water delivery</label><br>
+      <label><input type="radio" name="q2" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q2" value="C"> C. Driving lessons</label><br>
+      <label><input type="radio" name="q2" value="D"> D. Manual watering</label>
+    </div>
+
+    <div class="question"><p>3. What do drones do in agriculture?</p>
+      <label><input type="radio" name="q3" value="A"> A. Monitor crops</label><br>
+      <label><input type="radio" name="q3" value="B"> B. Cook food</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Drive tractors</label><br>
+      <label><input type="radio" name="q3" value="D"> D. Store data</label>
+    </div>
+
+    <div class="question"><p>4. What is biotechnology in crops?</p>
+      <label><input type="radio" name="q4" value="A"> A. Genetic modification</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Driving cars</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Manual farming</label>
+    </div>
+
+    <div class="question"><p>5. What is soil health monitoring?</p>
+      <label><input type="radio" name="q5" value="A"> A. Analyzing soil nutrients</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Driving lessons</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Manual watering</label>
+    </div>
+    <div class="question"><p>6. What is greenhouse technology?</p>
+      <label><input type="radio" name="q6" value="A"> A. Controlled environments for crops</label><br>
+      <label><input type="radio" name="q6" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q6" value="C"> C. Driving cars</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Manual farming</label>
+    </div>
+
+    <div class="question"><p>7. What are agricultural robots used for?</p>
+      <label><input type="radio" name="q7" value="A"> A. Automating planting and harvesting</label><br>
+      <label><input type="radio" name="q7" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Driving tractors</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Manual watering</label>
+    </div>
+
+    <div class="question"><p>8. What is climate-smart agriculture?</p>
+      <label><input type="radio" name="q8" value="A"> A. Farming adapted to climate change</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Driving lessons</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Manual farming</label>
+    </div>
+
+    <div class="question"><p>9. What are digital marketplaces in agriculture?</p>
+      <label><input type="radio" name="q9" value="A"> A. Platforms connecting farmers to buyers</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Cooking stores</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Driving schools</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Manual trading</label>
+    </div>
+
+    <div class="question"><p>10. What is livestock monitoring?</p>
+      <label><input type="radio" name="q10" value="A"> A. Wearables tracking animal health</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Driving cars</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Manual feeding</label>
+    </div>
+
+    <div class="question"><p>11. What is aquaculture technology?</p>
+      <label><input type="radio" name="q11" value="A"> A. ICT in fish farming</label><br>
+      <label><input type="radio" name="q11" value="B"> B. Cooking fish</label><br>
+      <label><input type="radio" name="q11" value="C"> C. Driving boats</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Manual fishing</label>
+    </div>
+
+    <div class="question"><p>12. What is post-harvest management?</p>
+      <label><input type="radio" name="q12" value="A"> A. Technology reducing food loss</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q12" value="C"> C. Driving cars</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Manual storage</label>
+    </div>
+
+    <div class="question"><p>13. What is farm management software?</p>
+      <label><input type="radio" name="q13" value="A"> A. Digital tools tracking farm operations</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Cooking apps</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Driving apps</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Manual notebooks</label>
+    </div>
+
+    <div class="question"><p>14. What is renewable energy in farming?</p>
+      <label><input type="radio" name="q14" value="A"> A. Solar/wind power for farms</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Cooking fuel</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Driving fuel</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Manual energy</label>
+    </div>
+
+    <div class="question"><p>15. What is agricultural data analytics?</p>
+      <label><input type="radio" name="q15" value="A"> A. Big data for decision-making</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Driving routes</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Manual records</label>
+    </div>
+
+    <div class="question"><p>16. What is the impact of precision farming?</p>
+      <label><input type="radio" name="q16" value="A"> A. Reduces waste and increases yield</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Driving cars</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Manual farming</label>
+    </div>
+
+    <div class="question"><p>17. What is the benefit of smart irrigation?</p>
+      <label><input type="radio" name="q17" value="A"> A. Conserves water resources</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Driving lessons</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Manual watering</label>
+    </div>
+
+    <div class="question"><p>18. What is the impact of drones in farming?</p>
+      <label><input type="radio" name="q18" value="A"> A. Early detection of pests</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Driving tractors</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Manual planting</label>
+    </div>
+
+    <div class="question"><p>19. What is the impact of digital marketplaces?</p>
+      <label><input type="radio" name="q19" value="A"> A. Increases farmer income</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Driving lessons</label><br>
+      <label><input type="radio" name="q19" value="D"> D. Manual trading</label>
+    </div>
+
+        <div class="question"><p>20. What is the impact of renewable energy in farming?</p>
+      <label><input type="radio" name="q20" value="A"> A. Reduces energy costs</label><br>
+      <label><input type="radio" name="q20" value="B"> B. Cooking fuel</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Driving fuel</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Manual energy</label>
+    </div>
+
+    <button type="button" class="submit" onclick="submitQuiz('Agriculture')">Submit</button>
+  </form>
+  <div id="result"></div>
+</section>
+
+<!-- Engineering Training Section -->
+<section id="engineeringTraining" class="section">
+  <h2>Engineering Training Modules</h2>
+
+  <div class="training-module">
+    <h3>1. Civil Engineering Basics</h3>
+    <p>Design and construction of infrastructure.</p>
+    <ul>
+      <li><strong>Definition:</strong> Engineering discipline focused on roads, bridges, and buildings.</li>
+      <li><strong>Example:</strong> Highway construction projects.</li>
+      <li><strong>Impact:</strong> Improves transportation and urban development.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>2. Mechanical Engineering</h3>
+    <p>Designing machines and mechanical systems.</p>
+    <ul>
+      <li><strong>Example:</strong> Automotive engines.</li>
+      <li><strong>Impact:</strong> Advances manufacturing and transport.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>3. Electrical Engineering</h3>
+    <p>Study of electricity and electronics.</p>
+    <ul>
+      <li><strong>Example:</strong> Power grids and circuits.</li>
+      <li><strong>Impact:</strong> Powers modern society.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>4. Computer Engineering</h3>
+    <p>Combines hardware and software design.</p>
+    <ul>
+      <li><strong>Example:</strong> Microprocessors.</li>
+      <li><strong>Impact:</strong> Drives digital innovation.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>5. Chemical Engineering</h3>
+    <p>Processes raw materials into useful products.</p>
+    <ul>
+      <li><strong>Example:</strong> Petroleum refining.</li>
+      <li><strong>Impact:</strong> Supports industrial production.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>6. Structural Engineering</h3>
+    <p>Ensures buildings and bridges are safe.</p>
+    <ul>
+      <li><strong>Example:</strong> Earthquake-resistant structures.</li>
+      <li><strong>Impact:</strong> Protects lives and property.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>7. Environmental Engineering</h3>
+    <p>Applies engineering to protect the environment.</p>
+    <ul>
+      <li><strong>Example:</strong> Wastewater treatment plants.</li>
+      <li><strong>Impact:</strong> Promotes sustainability.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>8. Aerospace Engineering</h3>
+    <p>Design of aircraft and spacecraft.</p>
+    <ul>
+      <li><strong>Example:</strong> NASA rockets.</li>
+      <li><strong>Impact:</strong> Expands human exploration.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>9. Industrial Engineering</h3>
+    <p>Optimizes complex systems and processes.</p>
+    <ul>
+      <li><strong>Example:</strong> Assembly line design.</li>
+      <li><strong>Impact:</strong> Increases productivity.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>10. Robotics Engineering</h3>
+    <p>Design and programming of robots.</p>
+    <ul>
+      <li><strong>Example:</strong> Automated factory robots.</li>
+      <li><strong>Impact:</strong> Reduces human labor.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>11. Materials Engineering</h3>
+    <p>Studies properties of materials.</p>
+    <ul>
+      <li><strong>Example:</strong> Lightweight alloys.</li>
+      <li><strong>Impact:</strong> Improves product durability.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>12. Biomedical Engineering</h3>
+    <p>Applies engineering to healthcare.</p>
+    <ul>
+      <li><strong>Example:</strong> Prosthetic limbs.</li>
+      <li><strong>Impact:</strong> Enhances patient care.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>13. Renewable Energy Engineering</h3>
+    <p>Focuses on sustainable energy systems.</p>
+    <ul>
+      <li><strong>Example:</strong> Solar panels.</li>
+      <li><strong>Impact:</strong> Reduces carbon footprint.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>14. Transportation Engineering</h3>
+    <p>Designs efficient transport systems.</p>
+    <ul>
+      <li><strong>Example:</strong> Railway networks.</li>
+      <li><strong>Impact:</strong> Improves mobility.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>15. Project Management in Engineering</h3>
+    <p>Managing engineering projects effectively.</p>
+    <ul>
+      <li><strong>Example:</strong> Construction project planning.</li>
+      <li><strong>Impact:</strong> Ensures timely delivery.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="engineeringQuestions" class="section">
+  <h2>Engineering Assessment Questions</h2>
+  <form id="quizForm">
+
+    <div class="question"><p>1. What does civil engineering focus on?</p>
+      <label><input type="radio" name="q1" value="A"> A. Infrastructure design</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Driving</label>
+    </div>
+
+    <div class="question"><p>2. What is mechanical engineering about?</p>
+      <label><input type="radio" name="q2" value="A"> A. Machines and systems</label><br>
+      <label><input type="radio" name="q2" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q2" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q2" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>3. What does electrical engineering study?</p>
+      <label><input type="radio" name="q3" value="A"> A. Electricity and electronics</label><br>
+      <label><input type="radio" name="q3" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q3" value="D"> D. Driving</label>
+    </div>
+
+    <div class="question"><p>4. What is computer engineering?</p>
+      <label><input type="radio" name="q4" value="A"> A. Hardware and software design</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Driving</label>
+    </div>
+
+    <div class="question"><p>5. What is chemical engineering?</p>
+      <label><input type="radio" name="q5" value="A"> A. Processing raw materials</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Farming</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Driving</label>
+    </div>
+    <div class="question"><p>6. What does structural engineering ensure?</p>
+      <label><input type="radio" name="q6" value="A"> A. Safety of buildings and bridges</label><br>
+      <label><input type="radio" name="q6" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q6" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>7. What is environmental engineering?</p>
+      <label><input type="radio" name="q7" value="A"> A. Protecting the environment with engineering</label><br>
+      <label><input type="radio" name="q7" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>8. What is aerospace engineering?</p>
+      <label><input type="radio" name="q8" value="A"> A. Design of aircraft and spacecraft</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>9. What is industrial engineering?</p>
+      <label><input type="radio" name="q9" value="A"> A. Optimizing systems and processes</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>10. What is robotics engineering?</p>
+      <label><input type="radio" name="q10" value="A"> A. Designing and programming robots</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>11. What is materials engineering?</p>
+      <label><input type="radio" name="q11" value="A"> A. Studying properties of materials</label><br>
+      <label><input type="radio" name="q11" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q11" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Driving manuals</label>
+    </div>
+
+    <div class="question"><p>12. What is biomedical engineering?</p>
+      <label><input type="radio" name="q12" value="A"> A. Applying engineering to healthcare</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q12" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>13. What is renewable energy engineering?</p>
+      <label><input type="radio" name="q13" value="A"> A. Sustainable energy systems</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Cooking fuel</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Driving fuel</label>
+    </div>
+
+    <div class="question"><p>14. What is transportation engineering?</p>
+      <label><input type="radio" name="q14" value="A"> A. Designing efficient transport systems</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>15. What is project management in engineering?</p>
+      <label><input type="radio" name="q15" value="A"> A. Managing engineering projects</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>16. What is the impact of civil engineering?</p>
+      <label><input type="radio" name="q16" value="A"> A. Improves transportation and urban development</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>17. What is the impact of mechanical engineering?</p>
+      <label><input type="radio" name="q17" value="A"> A. Advances manufacturing and transport</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>18. What is the impact of electrical engineering?</p>
+      <label><input type="radio" name="q18" value="A"> A. Powers modern society</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>19. What is the impact of environmental engineering?</p>
+      <label><input type="radio" name="q19" value="A"> A. Promotes sustainability</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q19" value="D"> D. Driving cars</label>
+    </div>
+
+        <div class="question"><p>20. What is the impact of project management in engineering?</p>
+      <label><input type="radio" name="q20" value="A"> A. Ensures timely delivery</label><br>
+      <label><input type="radio" name="q20" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Driving cars</label>
+    </div>
+
+    <button type="button" class="submit" onclick="submitQuiz('Engineering')">Submit</button>
+  </form>
+  <div id="result"></div>
+</section>
+
+
+<!-- Entrepreneurship Training Section -->
+<section id="entrepreneurshipTraining" class="section">
+  <h2>Entrepreneurship Training Modules</h2>
+
+  <div class="training-module">
+    <h3>1. Business Idea Generation</h3>
+    <p>Identifying opportunities and innovative ideas.</p>
+    <ul>
+      <li><strong>Definition:</strong> Process of creating viable business concepts.</li>
+      <li><strong>Example:</strong> Spotting gaps in local markets.</li>
+      <li><strong>Impact:</strong> Drives innovation and new ventures.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>2. Market Research</h3>
+    <p>Studying customers and competitors.</p>
+    <ul>
+      <li><strong>Example:</strong> Surveys and focus groups.</li>
+      <li><strong>Impact:</strong> Reduces business risk.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>3. Business Planning</h3>
+    <p>Developing structured plans for startups.</p>
+    <ul>
+      <li><strong>Example:</strong> Writing a business plan.</li>
+      <li><strong>Impact:</strong> Guides growth and funding.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>4. Financial Management</h3>
+    <p>Managing cash flow and budgets.</p>
+    <ul>
+      <li><strong>Example:</strong> Tracking expenses with software.</li>
+      <li><strong>Impact:</strong> Ensures sustainability.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>5. Marketing Strategies</h3>
+    <p>Promoting products and services.</p>
+    <ul>
+      <li><strong>Example:</strong> Social media campaigns.</li>
+      <li><strong>Impact:</strong> Builds brand awareness.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>6. Sales Techniques</h3>
+    <p>Converting leads into customers.</p>
+    <ul>
+      <li><strong>Example:</strong> Consultative selling.</li>
+      <li><strong>Impact:</strong> Increases revenue.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>7. Leadership Skills</h3>
+    <p>Guiding teams effectively.</p>
+    <ul>
+      <li><strong>Example:</strong> Motivating employees.</li>
+      <li><strong>Impact:</strong> Improves productivity.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>8. Innovation Management</h3>
+    <p>Encouraging creativity in business.</p>
+    <ul>
+      <li><strong>Example:</strong> Hackathons for new ideas.</li>
+      <li><strong>Impact:</strong> Keeps businesses competitive.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>9. Risk Management</h3>
+    <p>Identifying and mitigating risks.</p>
+    <ul>
+      <li><strong>Example:</strong> Insurance policies.</li>
+      <li><strong>Impact:</strong> Protects business assets.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>10. Networking</h3>
+    <p>Building professional connections.</p>
+    <ul>
+      <li><strong>Example:</strong> Attending industry events.</li>
+      <li><strong>Impact:</strong> Opens opportunities.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>11. Customer Relationship Management</h3>
+    <p>Maintaining strong customer ties.</p>
+    <ul>
+      <li><strong>Example:</strong> CRM software like Salesforce.</li>
+      <li><strong>Impact:</strong> Improves loyalty.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>12. Legal Aspects of Business</h3>
+    <p>Understanding laws and regulations.</p>
+    <ul>
+      <li><strong>Example:</strong> Registering a company.</li>
+      <li><strong>Impact:</strong> Ensures compliance.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>13. Funding and Investment</h3>
+    <p>Securing capital for growth.</p>
+    <ul>
+      <li><strong>Example:</strong> Venture capital funding.</li>
+      <li><strong>Impact:</strong> Enables expansion.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>14. Social Entrepreneurship</h3>
+    <p>Businesses with social impact.</p>
+    <ul>
+      <li><strong>Example:</strong> Microfinance institutions.</li>
+      <li><strong>Impact:</strong> Supports communities.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>15. Digital Entrepreneurship</h3>
+    <p>Online-based business ventures.</p>
+    <ul>
+      <li><strong>Example:</strong> E-commerce startups.</li>
+      <li><strong>Impact:</strong> Expands global reach.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="entrepreneurshipQuestions" class="section">
+  <h2>Entrepreneurship Assessment Questions</h2>
+  <form id="quizForm">
+
+    <div class="question"><p>1. What is business idea generation?</p>
+      <label><input type="radio" name="q1" value="A"> A. Creating viable business concepts</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>2. What is market research?</p>
+      <label><input type="radio" name="q2" value="A"> A. Studying customers and competitors</label><br>
+      <label><input type="radio" name="q2" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q2" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q2" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>3. What is a business plan?</p>
+      <label><input type="radio" name="q3" value="A"> A. Structured plan for startups</label><br>
+      <label><input type="radio" name="q3" value="B"> B. Cooking recipe</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Farming manual</label><br>
+      <label><input type="radio" name="q3" value="D"> D. Driving guide</label>
+    </div>
+
+    <div class="question"><p>4. What is financial management?</p>
+      <label><input type="radio" name="q4" value="A"> A. Managing cash flow and budgets</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>5. What is marketing strategy?</p>
+      <label><input type="radio" name="q5" value="A"> A. Promoting products/services</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Driving lessons</label>
+    </div>
+    <div class="question"><p>6. What are sales techniques?</p>
+      <label><input type="radio" name="q6" value="A"> A. Methods to convert leads into customers</label><br>
+      <label><input type="radio" name="q6" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q6" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>7. What are leadership skills?</p>
+      <label><input type="radio" name="q7" value="A"> A. Guiding and motivating teams</label><br>
+      <label><input type="radio" name="q7" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>8. What is innovation management?</p>
+      <label><input type="radio" name="q8" value="A"> A. Encouraging creativity in business</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>9. What is risk management?</p>
+      <label><input type="radio" name="q9" value="A"> A. Identifying and mitigating risks</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>10. What is networking?</p>
+      <label><input type="radio" name="q10" value="A"> A. Building professional connections</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>11. What is customer relationship management?</p>
+      <label><input type="radio" name="q11" value="A"> A. Maintaining strong customer ties</label><br>
+      <label><input type="radio" name="q11" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q11" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>12. What are legal aspects of business?</p>
+      <label><input type="radio" name="q12" value="A"> A. Understanding laws and regulations</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q12" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>13. What is funding and investment?</p>
+      <label><input type="radio" name="q13" value="A"> A. Securing capital for growth</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>14. What is social entrepreneurship?</p>
+      <label><input type="radio" name="q14" value="A"> A. Businesses with social impact</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>15. What is digital entrepreneurship?</p>
+      <label><input type="radio" name="q15" value="A"> A. Online-based business ventures</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>16. What is the impact of market research?</p>
+      <label><input type="radio" name="q16" value="A"> A. Reduces business risk</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>17. What is the impact of financial management?</p>
+      <label><input type="radio" name="q17" value="A"> A. Ensures sustainability</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>18. What is the impact of marketing strategies?</p>
+      <label><input type="radio" name="q18" value="A"> A. Builds brand awareness</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>19. What is the impact of networking?</p>
+      <label><input type="radio" name="q19" value="A"> A. Opens opportunities</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q19" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>20. What is the impact of social entrepreneurship?</p>
+      <label><input type="radio" name="q20" value="A"> A. Supports communities</label><br>
+      <label><input type="radio" name="q20" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Driving cars</label>
+    </div>
+
+    <button type="button" class="submit" onclick="submitQuiz('Entrepreneurship')">Submit</button>
+  </form>
+  <div id="result"></div>
+</section>
+
+<!-- Environmental Science Training Section -->
+<section id="environmentTraining" class="section">
+  <h2>Environmental Science Training Modules</h2>
+
+  <div class="training-module">
+    <h3>1. Climate Change Basics</h3>
+    <p>Understanding global warming and greenhouse gases.</p>
+    <ul>
+      <li><strong>Definition:</strong> Long-term shifts in temperature and weather.</li>
+      <li><strong>Example:</strong> Rising global temperatures.</li>
+      <li><strong>Impact:</strong> Affects ecosystems and human health.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>2. Renewable Energy</h3>
+    <p>Energy from sustainable sources.</p>
+    <ul>
+      <li><strong>Example:</strong> Solar and wind power.</li>
+      <li><strong>Impact:</strong> Reduces carbon emissions.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>3. Waste Management</h3>
+    <p>Proper disposal and recycling of waste.</p>
+    <ul>
+      <li><strong>Example:</strong> Composting organic waste.</li>
+      <li><strong>Impact:</strong> Minimizes pollution.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>4. Water Conservation</h3>
+    <p>Efficient use of water resources.</p>
+    <ul>
+      <li><strong>Example:</strong> Rainwater harvesting.</li>
+      <li><strong>Impact:</strong> Prevents water scarcity.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>5. Biodiversity Protection</h3>
+    <p>Safeguarding species and habitats.</p>
+    <ul>
+      <li><strong>Example:</strong> Wildlife reserves.</li>
+      <li><strong>Impact:</strong> Maintains ecological balance.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>6. Sustainable Agriculture</h3>
+    <p>Eco-friendly farming practices.</p>
+    <ul>
+      <li><strong>Example:</strong> Organic farming.</li>
+      <li><strong>Impact:</strong> Reduces soil degradation.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>7. Pollution Control</h3>
+    <p>Reducing air, water, and soil pollution.</p>
+    <ul>
+      <li><strong>Example:</strong> Emission filters in factories.</li>
+      <li><strong>Impact:</strong> Improves public health.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>8. Environmental Policy</h3>
+    <p>Government regulations for sustainability.</p>
+    <ul>
+      <li><strong>Example:</strong> Paris Climate Agreement.</li>
+      <li><strong>Impact:</strong> Guides global action.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>9. Green Technology</h3>
+    <p>Innovations that reduce environmental impact.</p>
+    <ul>
+      <li><strong>Example:</strong> Electric vehicles.</li>
+      <li><strong>Impact:</strong> Promotes clean energy use.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>10. Environmental Education</h3>
+    <p>Teaching sustainability concepts.</p>
+    <ul>
+      <li><strong>Example:</strong> School eco-clubs.</li>
+      <li><strong>Impact:</strong> Builds awareness.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>11. Forest Conservation</h3>
+    <p>Protecting forests from deforestation.</p>
+    <ul>
+      <li><strong>Example:</strong> Reforestation projects.</li>
+      <li><strong>Impact:</strong> Preserves carbon sinks.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>12. Ocean Protection</h3>
+    <p>Safeguarding marine ecosystems.</p>
+    <ul>
+      <li><strong>Example:</strong> Banning plastic straws.</li>
+      <li><strong>Impact:</strong> Reduces ocean pollution.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>13. Sustainable Urban Development</h3>
+    <p>Eco-friendly city planning.</p>
+    <ul>
+      <li><strong>Example:</strong> Green buildings.</li>
+      <li><strong>Impact:</strong> Reduces urban emissions.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>14. Environmental Economics</h3>
+    <p>Balancing economy and ecology.</p>
+    <ul>
+      <li><strong>Example:</strong> Carbon taxes.</li>
+      <li><strong>Impact:</strong> Encourages sustainable practices.</li>
+    </ul>
+  </div>
+
+  <div class="training-module">
+    <h3>15. Disaster Management</h3>
+    <p>Preparing for environmental hazards.</p>
+    <ul>
+      <li><strong>Example:</strong> Flood warning systems.</li>
+      <li><strong>Impact:</strong> Saves lives and property.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="environmentQuestions" class="section">
+  <h2>Environmental Science Assessment Questions</h2>
+  <form id="quizForm">
+
+    <div class="question"><p>1. What is climate change?</p>
+      <label><input type="radio" name="q1" value="A"> A. Long-term shifts in weather</label><br>
+      <label><input type="radio" name="q1" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q1" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q1" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>2. What is renewable energy?</p>
+      <label><input type="radio" name="q2" value="A"> A. Energy from sustainable sources</label><br>
+      <label><input type="radio" name="q2" value="B"> B. Cooking fuel</label><br>
+      <label><input type="radio" name="q2" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q2" value="D"> D. Driving fuel</label>
+    </div>
+
+    <div class="question"><p>3. What is waste management?</p>
+      <label><input type="radio" name="q3" value="A"> A. Proper disposal and recycling</label><br>
+      <label><input type="radio" name="q3" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q3" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q3" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>4. What is water conservation?</p>
+      <label><input type="radio" name="q4" value="A"> A. Efficient use of water</label><br>
+      <label><input type="radio" name="q4" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q4" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q4" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>5. What is biodiversity protection?</p>
+      <label><input type="radio" name="q5" value="A"> A. Safeguarding species and habitats</label><br>
+      <label><input type="radio" name="q5" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q5" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q5" value="D"> D. Driving cars</label>
+    </div>
+    <div class="question"><p>6. What is sustainable agriculture?</p>
+      <label><input type="radio" name="q6" value="A"> A. Eco-friendly farming practices</label><br>
+      <label><input type="radio" name="q6" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q6" value="C"> C. Driving lessons</label><br>
+      <label><input type="radio" name="q6" value="D"> D. Manual farming</label>
+    </div>
+
+    <div class="question"><p>7. What is pollution control?</p>
+      <label><input type="radio" name="q7" value="A"> A. Reducing air, water, and soil pollution</label><br>
+      <label><input type="radio" name="q7" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q7" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q7" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>8. What is environmental policy?</p>
+      <label><input type="radio" name="q8" value="A"> A. Government regulations for sustainability</label><br>
+      <label><input type="radio" name="q8" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q8" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q8" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>9. What is green technology?</p>
+      <label><input type="radio" name="q9" value="A"> A. Innovations that reduce environmental impact</label><br>
+      <label><input type="radio" name="q9" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q9" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q9" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>10. What is environmental education?</p>
+      <label><input type="radio" name="q10" value="A"> A. Teaching sustainability concepts</label><br>
+      <label><input type="radio" name="q10" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q10" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q10" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>11. What is forest conservation?</p>
+      <label><input type="radio" name="q11" value="A"> A. Protecting forests from deforestation</label><br>
+      <label><input type="radio" name="q11" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q11" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q11" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>12. What is ocean protection?</p>
+      <label><input type="radio" name="q12" value="A"> A. Safeguarding marine ecosystems</label><br>
+      <label><input type="radio" name="q12" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q12" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q12" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>13. What is sustainable urban development?</p>
+      <label><input type="radio" name="q13" value="A"> A. Eco-friendly city planning</label><br>
+      <label><input type="radio" name="q13" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q13" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q13" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>14. What is environmental economics?</p>
+      <label><input type="radio" name="q14" value="A"> A. Balancing economy and ecology</label><br>
+      <label><input type="radio" name="q14" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q14" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q14" value="D"> D. Driving lessons</label>
+    </div>
+
+    <div class="question"><p>15. What is disaster management?</p>
+      <label><input type="radio" name="q15" value="A"> A. Preparing for environmental hazards</label><br>
+      <label><input type="radio" name="q15" value="B"> B. Cooking recipes</label><br>
+      <label><input type="radio" name="q15" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q15" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>16. What is the impact of renewable energy?</p>
+      <label><input type="radio" name="q16" value="A"> A. Reduces carbon emissions</label><br>
+      <label><input type="radio" name="q16" value="B"> B. Cooking fuel</label><br>
+      <label><input type="radio" name="q16" value="C"> C. Farming tools</label><br>
+      <label><input type="radio" name="q16" value="D"> D. Driving fuel</label>
+    </div>
+
+    <div class="question"><p>17. What is the impact of waste management?</p>
+      <label><input type="radio" name="q17" value="A"> A. Minimizes pollution</label><br>
+      <label><input type="radio" name="q17" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q17" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q17" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>18. What is the impact of biodiversity protection?</p>
+      <label><input type="radio" name="q18" value="A"> A. Maintains ecological balance</label><br>
+      <label><input type="radio" name="q18" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q18" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q18" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>19. What is the impact of forest conservation?</p>
+      <label><input type="radio" name="q19" value="A"> A. Preserves carbon sinks</label><br>
+      <label><input type="radio" name="q19" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q19" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q19" value="D"> D. Driving cars</label>
+    </div>
+
+    <div class="question"><p>20. What is the impact of disaster management?</p>
+      <label><input type="radio" name="q20" value="A"> A. Saves lives and property</label><br>
+      <label><input type="radio" name="q20" value="B"> B. Cooking food</label><br>
+      <label><input type="radio" name="q20" value="C"> C. Farming crops</label><br>
+      <label><input type="radio" name="q20" value="D"> D. Driving cars</label>
+    </div>
+
+    <button type="button" class="submit" onclick="submitQuiz('Environment')">Submit</button>
+  </form>
+   <div id="result"></div>
+</section>
+
+ <section id="certification" class="section">
+  <h2>Certification</h2>
+
+  <!-- Quiz result + eligibility message -->
+  <div id="certMessage">Complete your quiz to unlock your certificate.</div>
+
+  <!-- Payment button (hidden until quiz is passed) -->
+  <button id="payButton" style="display:none;">Pay Ksh 150 to Unlock Certificate</button>
+
+  <!-- Payment status updates -->
+  <div id="paymentStatus"></div>
+
+  <!-- Certificate download link (hidden until payment success) -->
+  <a id="downloadLink" href="#" class="download-btn" style="display:none;" download="certificate.pdf">
+    Download Your Certificate
+  </a>
+</section>
+
+
+
+<section id="payment" class="section">
+  <h2>Certificate Payment</h2>
+  <p>
+    Congratulations! You’ve qualified for your certificate. To download it, please complete a one‑time payment of 
+    <strong>Ksh 150</strong>. This payment confirms your participation in the National Youth Technology Program.
+  </p>
+
+  <button id="payButton">Pay Ksh 150 to Unlock Certificate</button>
+
+  <div id="paymentStatus"></div>
+</section>
+
+
+<script>
+  let currentSpec = "";
+  let userName = "";
+
+  function getSpecFromSection(sectionId) {
+    if (sectionId.includes("informationtechnology")) return "informationtechnology";
+    if (sectionId.includes("finance")) return "finance";
+    if (sectionId.includes("education")) return "education";
+    if (sectionId.includes("healthcare")) return "healthcare";
+    if (sectionId.includes("agriculture")) return "agriculture";
+    if (sectionId.includes("engineering")) return "engineering";
+    if (sectionId.includes("entrepreneurship")) return "entrepreneurship";
+    if (sectionId.includes("environment")) return "environment";
+    return "";
+  }
+
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+    const el = document.getElementById(id);
+    if (el) el.classList.add('active');
+    const spec = getSpecFromSection(id);
+    if (spec) currentSpec = spec;
+  }
+
+  function setUserSpecialization(spec, name) {
+    let normalized = spec.toLowerCase().replace(/\s+/g, "");
+    if (normalized === "environmentalscience") normalized = "environment";
+    currentSpec = normalized;
+    userName = name;
+    document.querySelectorAll('.sidebar-group').forEach(group => group.style.display = 'none');
+    const chosen = document.getElementById("sidebar-" + currentSpec);
+    if (chosen) chosen.style.display = 'block';
+    showSection('home');
+  }
+
+  // ✅ Full Answer Keys for all 8 specializations
+  const answerKeys = {
+    "informationtechnology": {
+      q1:"A", q2:"B", q3:"A", q4:"C", q5:"A",
+      q6:"B", q7:"A", q8:"A", q9:"C", q10:"A",
+      q11:"B", q12:"A", q13:"A", q14:"C", q15:"A",
+      q16:"B", q17:"A", q18:"A", q19:"C", q20:"A"
+    },
+    "finance": {
+      q1:"A", q2:"A", q3:"B", q4:"C", q5:"A",
+      q6:"A", q7:"B", q8:"C", q9:"A", q10:"A",
+      q11:"B", q12:"C", q13:"A", q14:"A", q15:"B",
+      q16:"C", q17:"A", q18:"A", q19:"B", q20:"C"
+    },
+    "education": {
+      q1:"A", q2:"A", q3:"A", q4:"B", q5:"C",
+      q6:"A", q7:"A", q8:"B", q9:"C", q10:"A",
+      q11:"A", q12:"B", q13:"C", q14:"A", q15:"A",
+      q16:"B", q17:"C", q18:"A", q19:"A", q20:"B"
+    },
+    "healthcare": {
+      q1:"A", q2:"B", q3:"C", q4:"A", q5:"A",
+      q6:"B", q7:"C", q8:"A", q9:"A", q10:"B",
+      q11:"C", q12:"A", q13:"A", q14:"B", q15:"C",
+      q16:"A", q17:"A", q18:"B", q19:"C", q20:"A"
+    },
+    "agriculture": {
+      q1:"A", q2:"A", q3:"B", q4:"C", q5:"A",
+      q6:"B", q7:"A", q8:"C", q9:"A", q10:"B",
+      q11:"C", q12:"A", q13:"B", q14:"A", q15:"C",
+      q16:"A", q17:"B", q18:"C", q19:"A", q20:"A"
+    },
+    "engineering": {
+      q1:"A", q2:"C", q3:"B", q4:"A", q5:"A",
+      q6:"C", q7:"B", q8:"A", q9:"A", q10:"C",
+      q11:"B", q12:"A", q13:"C", q14:"A", q15:"B",
+      q16:"A", q17:"C", q18:"A", q19:"B", q20:"A"
+    },
+    "entrepreneurship": {
+      q1:"A", q2:"A", q3:"C", q4:"B", q5:"A",
+      q6:"A", q7:"C", q8:"B", q9:"A", q10:"A",
+      q11:"C", q12:"B", q13:"A", q14:"A", q15:"C",
+      q16:"B", q17:"A", q18:"A", q19:"C", q20:"A"
+    },
+    "environment": {
+      q1:"A", q2:"B", q3:"A", q4:"C", q5:"A",
+      q6:"B", q7:"A", q8:"C", q9:"A", q10:"B",
+      q11:"A", q12:"C", q13:"B", q14:"A", q15:"C",
+      q16:"A", q17:"B", q18:"A", q19:"C", q20:"A"
+    }
+  };
+
+  // ✅ Quiz submission logic
+  function submitQuiz() {
+    let score = 0, total = 20, attempted = 0;
+    const answers = answerKeys[currentSpec];
+    if (!answers) {
+      document.getElementById("certMessage").innerHTML =
+        `<h3 style='color:red;'>⚠️ No answer key found for ${currentSpec}.</h3>`;
+      return;
+    }
+
+    for (let i = 1; i <= total; i++) {
+      let selected = document.querySelector(`input[name="q${i}"]:checked`);
+      if (selected) {
+        attempted++;
+        if (selected.value === answers[`q${i}`]) score++;
+      }
+    }
+
+    let percentage = (score / total) * 100;
+
+    if (attempted === 0) {
+      document.getElementById("certMessage").innerHTML =
+        `<h3 style='color:red;'>⚠️ Attempt the quiz before downloading a certificate.</h3>`;
+      return;
+    }
+
+    if (percentage >= 50) {
+      document.getElementById("certMessage").innerHTML =
+        `<h3 style='color:green;'>🎉 Congratulations ${userName}! You scored ${score}/${total} (${percentage}%).</h3>
+         <p>You are now eligible for certification in ${currentSpec.charAt(0).toUpperCase() + currentSpec.slice(1)}.</p>
+         <p>Please pay Ksh 150 to unlock your certificate.</p>`;
+      document.getElementById("payButton").style.display = "inline-block";
+      showSection('certification');
+    } else {
+      document.getElementById("certMessage").innerHTML =
+        `<h3 style='color:red;'>❌ Sorry ${userName}, you scored ${score}/${total} (${percentage}%). Try again.</h3>`;
+    }
+  }
+
+  // ✅ Payment button logic (backend integration)
+  document.getElementById("payButton").addEventListener("click", async () => {
+    const phone = prompt("Enter your Safaricom number (format: 2547XXXXXXXX):");
+    if (!phone) return;
+
+    try {
+      const response = await fetch("/pay", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ phone })
+      });
+
+      const data = await response.json();
+      document.getElementById("paymentStatus").innerHTML =
+        "<p>📲 Check your phone for M‑Pesa prompt to pay Ksh 150...</p>";
+
+      // Poll backend until certificate is unlocked
+      const checkPayment = async () => {
+        const res = await fetch("/certificate");
+        if (res.ok) {
+          document.getElementById("paymentStatus").innerHTML =
+            "<p style='color:green;'>✅ Payment successful! You can now download your certificate.</p>";
+
+          const blob = await res.blob();
+          const url = window.URL.createObjectURL(blob);
+          const link = document.getElementById("downloadLink");
+          link.href = url;
+          link.style.display = "inline-block";
+        } else {
+          setTimeout(checkPayment, 5000); // retry after 5s
+        }
+      };
+
+      checkPayment();
+    } catch (err) {
+      document.getElementById("paymentStatus").innerHTML =
+        "<p style='color:red;'>❌ Payment initiation failed. Try again.</p>";
+    }
+  });
+
+   // Personalization on page load
+  window.onload = function() {
+    const name = sessionStorage.getItem("loginName");
+    const spec = sessionStorage.getItem("loginSpec");
+    if (name && spec) {
+      setUserSpecialization(spec, name);
+    } else {
+      showSection('home');
+    }
+  };
+</script>
+</body>
+</html>
