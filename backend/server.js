@@ -178,7 +178,7 @@ app.post('/pay', ensureAuth, generateMpesaToken, async (req, res) => {
   }
 });
 
-// Safaricom Webhook Processing Endpoint
+// Safaricom Webhook Processing Endpoint (Matches your updated MPESA_CALLBACK_URL environment variable)
 app.post('/mpesa-callback', (req, res) => {
   const { Body } = req.body;
   if (!Body || !Body.stkCallback) return res.status(400).send("Invalid format payload structure.");
